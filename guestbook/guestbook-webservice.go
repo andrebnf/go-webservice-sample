@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/codegangsta/martini"
+	"github.com/go-martini/martini"
 )
 
 // GetPath implements webservice.GetPath.
@@ -128,4 +128,3 @@ func (g *GuestBook) WebPost(params martini.Params,
 	// Everything is fine.
 	return http.StatusOK, "new entry created"
 }
-

@@ -17,7 +17,7 @@ package webservice
 import (
 	"net/http"
 
-	"github.com/codegangsta/martini"
+	"github.com/go-martini/martini"
 )
 
 // WebService is the interface that should be implemented by types that want to
@@ -61,4 +61,3 @@ func RegisterWebService(webService WebService,
 	classicMartini.Delete(path, webService.WebDelete)
 	classicMartini.Delete(path+"/:id", webService.WebDelete)
 }
-

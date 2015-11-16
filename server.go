@@ -17,7 +17,7 @@ package main
 import (
 	"github.com/brunoga/go-webservice-sample/guestbook"
 	"github.com/brunoga/go-webservice-sample/webservice"
-	"github.com/codegangsta/martini"
+	"github.com/go-martini/martini"
 )
 
 func main() {
